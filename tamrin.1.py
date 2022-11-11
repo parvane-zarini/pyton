@@ -1,2 +1,6 @@
 print("hello")
 print('pari')
+print("hello")
+print('pari')
+print("hello")
+print('pari')
