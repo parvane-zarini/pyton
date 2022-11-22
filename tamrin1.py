@@ -83,7 +83,7 @@ x = 5
 if x > 2 :
      print('Bigger than 2')
      print('Still bigger')
- print('Done with 2')
+print('Done with 2')
 
 for i in range(5) :
      print(i)
@@ -232,23 +232,23 @@ thing()
 
 
 
- big = max('Hello world')
- print(big)
-w
- tiny = min('Hello world')
- print(tiny)
+big = max('Hello world')
+print(big)
+
+tiny = min('Hello world')
+print(tiny)
 
 
 
 
 
- print(float(99) / 100)
- i = 42
- type(i)
- f = float(i)
- print(f)
- type(f)
- print(1 + 2 * float(3) / 4 – 5)
+print(float(99) / 100)
+i = 42
+type(i)
+f = float(i)
+print(f)
+type(f)
+print(1 + 2 * float(3) / 4-5)
  
 
 x = 5
@@ -276,44 +276,40 @@ print_lyrics()
 x = x + 2
 print(x)
 
- def greet(lang):
-...     if lang == 'es':
-...        print('Hola')
-...     elif lang == 'fr':
-...        print('Bonjour')
-...     else:
-...        print('Hello')
-... 
- greet('en')
-Hello
- greet('es')
-Hola
- greet('fr')
-Bonjour
+def greet(lang):
+     if lang == 'es':
+        print('Hola')
+     elif lang == 'fr':
+        print('Bonjour')
+     else:
+        print('Hello')
  
+greet('en')
+greet('es')
+greet('fr') 
 
 
-def greet():
+def greet1():
     return "Hello"
 
 print(greet(), "Glenn")
 print(greet(), "Sally")
 
 
- def greet(lang):
-...     if lang == 'es':
-...         return 'Hola'
-...     elif lang == 'fr':
-...         return 'Bonjour'
-...     else:
-...         return 'Hello'
-... 
- print(greet('en'),'Glenn')
- print(greet('es'),'Sally')
- print(greet('fr'),'Michael')
+def greet2(lang):
+     if lang == 'es':
+         return 'Hola'
+     elif lang == 'fr':
+         return 'Bonjour'
+     else:
+         return 'Hello'
  
- big = max('Hello world')
- print(big)
+print(greet('en'),'Glenn')
+print(greet('es'),'Sally')
+print(greet('fr'),'Michael')
+ 
+big = max('Hello world')
+print(big)
 
 
 def addtwo(a, b):
